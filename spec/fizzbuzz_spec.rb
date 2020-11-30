@@ -20,7 +20,7 @@ RSpec.describe FizzBuzz do
         expect(@fizzbuzz.convertir(6)).to eq 'Fizz'
     end
     it "devuelve Buzz si el numero es multiplo de 5" do
-        expect(@fizzbuzz.convertirr(10)).to eq 'Buzz'
+        expect(@fizzbuzz.convertir(10)).to eq 'Buzz'
     end
     it "devuelve FizzBuzz si el numero es multiplo de 3 y 5" do
         expect(@fizzbuzz.convertir(15)).to eq 'FizzBuzz'
