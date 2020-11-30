@@ -10,5 +10,5 @@ gem 'simplecov-console', '~> 0.7.2' #coverage console report
 gem 'capybara', '~> 3.32', '>= 3.32.1' # framework to inspect web components
 gem 'rack-test', '~> 1.1'# default web driver for capybara
 gem 'better_errors', '~> 2.7' #better log errors on web
-gem 'rubocop'
+
 gem 'rake'
